@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def home():
+def main():
 		return "Successfully connected."
 
 @app.route('/home/<string:conditionName>/<int:conditionParams>/<int:conditionParams2>')
