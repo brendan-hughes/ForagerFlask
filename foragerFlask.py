@@ -5,8 +5,8 @@ from bson import json_util
 
 app = Flask(__name__)
 
-client = MongoClient("mongodb+srv://brendanhughes:LeoDalton1@foragercluster.29jmm.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority")
-mydb = client["foodData"]
+client = MongoClient("mongodb+srv://brendanhughes:LeoDalton1@foragercluster.29jmm.gcp.mongodb.net/foodData?retryWrites=true&w=majority")
+mydb = client.foodData
 mycol = mydb["recipes"]
 
 
