@@ -15,7 +15,7 @@ def main():
 
 @app.route('/home/')
 # <string:conditionName>/<int:conditionParams>/<int:conditionParams2>
-def home(conditionName,conditionParams,conditionParams2):
+def home():
 		# query = {conditionName:{"$gt":conditionParams,"$lt":conditionParams2}}
 		# recipe = list(mycol.find(query).limit(1))
 		# string = json.dumps(recipe,default=json_util.default)
