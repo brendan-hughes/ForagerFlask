@@ -1,1 +1,1 @@
-web: python3.8.3 foragerFlask.py
+web: uwsgi uwsgi.ini
